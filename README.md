@@ -39,13 +39,6 @@ Framework only: inversion — [context]
 | `sessions/` | Your decision journals (not committed to git) |
 | `reference/frameworks-quick-ref.md` | One-page cheat sheet |
 
-## Personal config (optional)
-
-```bash
-cp config.example.yaml config.local.yaml
-```
-
-Edit `config.local.yaml` for tone, default impact, etc. It is gitignored.
 
 ## Impact-based depth
 
@@ -59,18 +52,6 @@ The agent adjusts how many questions it asks based on stakes:
 | Life-changing | Career pivots, irreversible forks |
 
 You can always correct the tier during intake.
-
-## Career decisions
-
-Say `domain: career` during intake, or mention it in your opening message. The agent loads extra prompts from `overlays/career.md`.
-
-## Open source
-
-This repo is structured so you can publish it without your personal sessions:
-
-- Real sessions live in `sessions/` (ignored by git)
-- `sessions/examples/` contains a sanitized sample
-- Add overlays under `.cursor/skills/decision-intelligence/overlays/` for new domains
 
 ## License
 
