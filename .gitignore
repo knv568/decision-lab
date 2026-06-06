@@ -1,0 +1,15 @@
+# Personal decision sessions (never commit real decisions)
+sessions/*
+!sessions/examples/
+!sessions/examples/**
+
+# SpecStory (local chat history — not part of Decision Lab)
+.specstory/
+
+# Local overrides
+config.local.yaml
+
+# OS / editor
+.vscode/
+.DS_Store
+*.swp

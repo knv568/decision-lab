@@ -1,0 +1,27 @@
+# Copy to config.local.yaml and customize (config.local.yaml is gitignored).
+
+tone: direct_consultant  # direct_consultant | gentle_coach
+
+# Default impact if intake is ambiguous (agent should still confirm with you)
+default_impact: significant  # trivial | moderate | significant | life-changing
+
+# Framework policy
+frameworks:
+  run_all_by_default: true
+  allow_skip_with_rationale: true
+
+# Depth presets (questions per framework, approximate)
+depth:
+  trivial:
+    questions_per_framework: 1
+    offer_light_pass: true  # may suggest 3-4 frameworks only
+  moderate:
+    questions_per_framework: 2
+  significant:
+    questions_per_framework: 3
+  life-changing:
+    questions_per_framework: 4
+    offer_second_round: true
+
+# Domain overlay (optional)
+default_domain: null  # career | business | personal | project | null
