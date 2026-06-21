@@ -1,3 +1,5 @@
+![Decision Lab](assets/decision-lab-social-card.png)
+
 # Decision Lab
 
 A Cursor workspace for making better decisions using **seven structured thinking frameworks** — with an agent that asks questions, pushes back, and writes a private synthesis you can revisit.
